@@ -1,0 +1,87 @@
+{
+  "props_settings": [
+    { "prop_name": "machette",
+      "main_control": "CC_Machette",
+      "space_attribute": "Machete Parent",      
+      "used_animations": [ "machete", "machete_short"],
+      "linked_animation": 
+        {"anim_name": "machete",          
+         "link_frame": 1
+        }
+    },
+    { "prop_name": "axe",
+      "main_control": "CC_Axe",
+      "space_attribute": "Axe Parent",      
+      "used_animations": [ "axe"],
+      "linked_animation": 
+        {"anim_name": "axe",          
+         "link_frame": 1
+        }
+    },
+    { "prop_name": "Kirka",
+      "main_control": "CC_Pick",
+      "space_attribute": "Pick Parent",      
+      "used_animations": [ "kirka"],
+      "linked_animation": 
+        {"anim_name": "kirka",          
+         "link_frame": 1
+        }
+    },
+    { "prop_name": "Map",
+      "main_control": "Move_All",
+      "space_attribute": "Parent",      
+      "used_animations": [ "reading"],
+      "linked_animation": 
+        {"anim_name": "reading",          
+         "link_frame": 50
+        }
+    },
+    { "prop_name": "Spray",
+      "main_control": "spr_Main",
+      "space_attribute": "Spr Parent",      
+      "used_animations": [ "spray_in", "spray_out", "spray_cycle", "spray", "spray_short"],
+      "linked_animation": 
+        {"anim_name": "spray_cycle",          
+         "link_frame": 1
+        }
+    },
+    { "prop_name": "Teleskope",
+      "main_control": "CC_Telescope1_ctrl",
+      "space_attribute": "Telescope Parent",      
+      "used_animations": [ "gaze_in", "gaze_out", "gaze_idle", "gaze"],
+      "linked_animation": 
+        {"anim_name": "gaze_idle",          
+         "link_frame": 1
+        }
+    },
+    { "prop_name": "Flashlight",
+      "main_control": "CC_Flashlight1_ctrl",
+      "space_attribute": "Flashlight Parent",      
+      "used_animations": [ "flashlight_in", "flashlight_out", "flashlight_cycle", "flashlight"],
+      "linked_animation": 
+        {"anim_name": "flashlight_cycle",          
+         "link_frame": 1
+        }
+    },
+    { "prop_name": "Torch",
+      "main_control": "CC_Torch",
+      "space_attribute": "Parent",      
+      "used_animations": [ "torch_in", "torch_out", "torch_cycle", "torch"],
+      "linked_animation": 
+        {"anim_name": "torch_cycle",          
+         "link_frame": 1
+        }
+    },
+    { "prop_name": "Microphone",
+      "main_control": "Mic_Main",
+      "space_attribute": "Mic Parent",      
+      "used_animations": [ "mic_in", "mic_out", "mic_talk", "mic_idle"],
+      "linked_animation": 
+        {"anim_name": "mic_idle",          
+         "link_frame": 1
+        }
+    }
+         
+    ]        
+  
+}
